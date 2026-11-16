@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1f2a24"/>
+    </pattern>
+    <radialGradient id="glow" cx="22%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#2ea043" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7ee787" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="type1"><rect x="430" y="70" height="40" width="420">
+      <animate attributeName="width" from="0" to="420" dur="1.4s" begin="0s" fill="freeze" calcMode="discrete" values="0;30;60;90;120;150;180;210;240;270;300;330;360;390;420" keyTimes="0;0.07;0.14;0.21;0.28;0.35;0.42;0.5;0.57;0.64;0.71;0.78;0.85;0.92;1"/>
+    </rect></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+      .fade{animation:in .7s ease-out backwards}
+      .d1{animation-delay:1.9s}.d2{animation-delay:2.3s}.d3{animation-delay:2.7s}
+      @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      .cur{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+          </style>
+  </defs>
+
+  <rect width="1280" height="340" rx="14" fill="#0d1117"/>
+  <rect width="1280" height="340" rx="14" fill="url(#dots)"/>
+  <rect width="1280" height="340" rx="14" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" rx="14" fill="none" stroke="#21262d"/>
+
+  <!-- N mark -->
+  <g transform="translate(150 70)">
+    <circle cx="100" cy="100" r="112" fill="#010409" stroke="#30363d" stroke-width="2"/>
+    <g fill="#f0f6fc">
+      <polygon points="38,40 62,40 62,166 38,166"/>
+      <polygon points="138,34 162,34 162,160 138,160"/>
+      <polygon points="38,40 62,40 162,136 162,160 138,160 38,64"/>
+    </g>
+    <rect x="38" y="64" width="24" height="10" fill="#7ee787">
+      <animate attributeName="y" values="64;150;64" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- line 1: prompt typing -->
+  <g clip-path="url(#type1)">
+    <text x="430" y="98" class="mono" font-size="22" fill="#7ee787">nanthawat@th<tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#8b949e">$</tspan> <tspan fill="#e6edf3">whoami</tspan></text>
+  </g>
+
+  <g class="fade d1"><text x="428" y="160" class="sans" font-size="48" font-weight="700" fill="#f0f6fc" letter-spacing="-0.5">Nandavadhana Shinakham</text></g>
+  <g class="fade d2"><text x="430" y="200" class="mono" font-size="18" fill="#8b949e">independent software developer <tspan fill="#30363d">/</tspan> web <tspan fill="#30363d">/</tspan> mobile <tspan fill="#30363d">/</tspan> ai</text></g>
+
+  <g class="fade d3">
+    <text x="430" y="252" class="mono" font-size="18" fill="#7ee787">❯ <tspan fill="#e6edf3">open to freelance work</tspan></text>
+    <rect class="cur" x="700" y="237" width="10" height="20" fill="#7ee787"/>
+  </g>
+
+  <!-- contribution strip -->
+  <g transform="translate(940 278)">
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#0e4429;#161b22" dur="4.8s" begin="0.0s" repeatCount="indefinite"/></rect>
+    <rect x="18" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#006d32;#161b22" dur="4.8s" begin="0.3s" repeatCount="indefinite"/></rect>
+    <rect x="36" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#26a641;#161b22" dur="4.8s" begin="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="54" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#39d353;#161b22" dur="4.8s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="72" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#26a641;#161b22" dur="4.8s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="90" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#006d32;#161b22" dur="4.8s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="108" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#39d353;#161b22" dur="4.8s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="126" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#0e4429;#161b22" dur="4.8s" begin="2.1s" repeatCount="indefinite"/></rect>
+    <rect x="144" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#26a641;#161b22" dur="4.8s" begin="2.4s" repeatCount="indefinite"/></rect>
+    <rect x="162" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#39d353;#161b22" dur="4.8s" begin="2.7s" repeatCount="indefinite"/></rect>
+    <rect x="180" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#006d32;#161b22" dur="4.8s" begin="3.0s" repeatCount="indefinite"/></rect>
+    <rect x="198" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#26a641;#161b22" dur="4.8s" begin="3.3s" repeatCount="indefinite"/></rect>
+    <rect x="216" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#39d353;#161b22" dur="4.8s" begin="3.6s" repeatCount="indefinite"/></rect>
+    <rect x="234" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#0e4429;#161b22" dur="4.8s" begin="3.9s" repeatCount="indefinite"/></rect>
+    <rect x="252" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#26a641;#161b22" dur="4.8s" begin="4.2s" repeatCount="indefinite"/></rect>
+    <rect x="270" y="0" width="14" height="14" rx="3" fill="#161b22"><animate attributeName="fill" values="#161b22;#39d353;#161b22" dur="4.8s" begin="4.5s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <rect x="0" y="336" width="320" height="2" fill="url(#scan)">
+    <animate attributeName="x" values="-320;1280" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

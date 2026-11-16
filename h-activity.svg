@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 56" width="1280" height="56">
+  <style>.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}</style>
+  <text x="2" y="34" class="m" font-size="22" fill="#8b949e">❯</text>
+  <text x="30" y="34" class="m" font-size="22" font-weight="600" fill="#2ea043">activity</text>
+  <text x="146" y="34" class="m" font-size="22" fill="#8b949e" opacity="0.5">--</text>
+  <rect x="186" y="26" width="1092" height="2" fill="#8b949e" opacity="0.3"/>
+</svg>
