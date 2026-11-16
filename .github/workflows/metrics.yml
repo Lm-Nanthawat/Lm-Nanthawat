@@ -1,0 +1,45 @@
+name: metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 2 * * *"   # ทุกวัน 09:17 เวลาไทย
+  push:
+    branches: [main]
+    paths: [".github/workflows/metrics.yml"]
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Overview card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Lm-Nanthawat
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Bangkok
+          config_display: large
+          repositories_affiliations: owner, collaborator
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: no
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+
+      - name: 3D contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: Lm-Nanthawat
+          base: ""
+          config_timezone: Asia/Bangkok
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
