@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Nandavadhana Shinakham — independent software developer" />
+  <img src="banner.svg" width="100%" alt="Nandavadhana Shinakham — independent software developer" />
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 <table width="100%">
   <tr>
     <td width="62%" valign="top">
-      <img src="assets/h-stack.svg" width="100%" />
+      <img src="h-stack.svg" width="100%" />
       <p align="center">
         <img src="https://cdn.simpleicons.org/typescript/3178C6" height="38" />&nbsp;&nbsp;
         <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="38" />&nbsp;&nbsp;
@@ -43,12 +43,12 @@
       </p>
     </td>
     <td width="38%" valign="top" align="center">
-      <img src="assets/metrics.svg" width="100%" alt="GitHub metrics" />
+      <img src="metrics.svg" width="100%" alt="GitHub metrics" />
     </td>
   </tr>
 </table>
 
-<img src="assets/h-projects.svg" width="100%" />
+<img src="h-projects.svg" width="100%" />
 
 <!-- แก้คำอธิบาย / ปี ให้ตรงกับของจริง -->
 <table width="100%">
@@ -82,8 +82,8 @@
 
 <br><br>
 
-<img src="assets/h-activity.svg" width="100%" />
+<img src="h-activity.svg" width="100%" />
 
 <p align="center">
-  <img src="assets/isocalendar.svg" width="100%" alt="3D contribution calendar" />
+  <img src="isocalendar.svg" width="100%" alt="3D contribution calendar" />
 </p>
