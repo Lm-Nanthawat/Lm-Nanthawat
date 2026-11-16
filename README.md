@@ -9,7 +9,7 @@ My current focus is business software, backend engineering, and the infrastructu
 Technology Stack
 Languages & Runtime
 <p>
-  <img src="https://cdn.simpleicons.org/csharp/512BD4" height="38" alt="C#" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="38" alt="C#" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/typescript/3178C6" height="38" alt="TypeScript" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="38" alt="JavaScript" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/php/777BB4" height="38" alt="PHP" />&nbsp;&nbsp;
