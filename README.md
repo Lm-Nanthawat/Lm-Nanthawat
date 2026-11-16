@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="banner.svg" width="100%" alt="Nandavadhana Shinakham — independent software developer" />
-</p>
-
-<p align="center">
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/email-0d1117?style=for-the-badge&logo=gmail&logoColor=7ee787" /></a>
-  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=7ee787" /></a>
-  <a href="https://www.linkedin.com/in/your-username"><img src="https://img.shields.io/badge/linkedin-0d1117?style=for-the-badge&logo=linkedin&logoColor=7ee787" /></a>
-  <a href="https://www.facebook.com/your-username"><img src="https://img.shields.io/badge/facebook-0d1117?style=for-the-badge&logo=facebook&logoColor=7ee787" /></a>
+  <img src="banner.svg" width="100%" alt="Nandavadhana Shinakham — software engineer and product builder" />
 </p>
 
 <br>
@@ -34,12 +27,17 @@
         <img src="https://cdn.simpleicons.org/docker/2496ED" height="38" />
       </p>
       <p>
-        I build web and mobile apps for businesses and organizations in Thailand —
-        POS systems, back-office tools, the software people open every morning at work.
-        Usually the whole thing: schema, API, UI, deploy.
+        I'm a software engineer and product builder interested in designing
+        and building software systems that solve real-world problems.
+        I enjoy working across the engineering process — from understanding
+        business requirements and shaping system architecture to data modeling,
+        backend development, and user-facing applications.
       </p>
       <p>
-        Lately: wiring AI into those systems where it actually removes manual work.
+        My current focus is on business software, reliable backend systems,
+        and the infrastructure needed to build, deploy, and operate them.
+        I also explore how AI can support practical software engineering
+        and remove repetitive work.
       </p>
     </td>
     <td width="38%" valign="top" align="center">
@@ -50,7 +48,6 @@
 
 <img src="h-projects.svg" width="100%" />
 
-<!-- แก้คำอธิบาย / ปี ให้ตรงกับของจริง -->
 <table width="100%">
   <tr>
     <th align="left" width="14%">Year</th>
@@ -61,24 +58,24 @@
   <tr>
     <td><code>2026</code></td>
     <td><b>DurianOS</b></td>
-    <td>TypeScript · React</td>
-    <td>Management platform for ...</td>
+    <td>C# · .NET · React · TypeScript</td>
+    <td>An ERP and operations platform for durian packing houses, covering receiving, weighing, grading, inventory, and grower settlement.</td>
   </tr>
   <tr>
     <td><code>2026</code></td>
     <td><b>PPK Laravel</b></td>
     <td>PHP · Laravel</td>
-    <td>Web application for ...</td>
+    <td>A hospital-focused web application project.</td>
   </tr>
   <tr>
     <td><code>2025</code></td>
     <td><b>R12 Welfare POS</b></td>
-    <td>...</td>
-    <td>Point-of-sale for a welfare shop — sales, stock, daily reports.</td>
+    <td>Node.js · Express · SQLite</td>
+    <td>An inventory and point-of-sale system with stock control, sales records, and reporting.</td>
   </tr>
 </table>
 
-<sub>Most client work lives in private repos. Happy to walk through any of it on a call.</sub>
+<sub>Some projects and client work are maintained in private repositories.</sub>
 
 <br><br>
 
