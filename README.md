@@ -1,53 +1,43 @@
 <p align="center">
-  <img src="banner.svg" width="100%" alt="Nandavadhana Shinakham — software engineer and product builder" />
-</p>
+  <img src="banner.svg" width="100%" alt="Nandavadhana Shinakham — Software Engineer and Product Builder" />
+</p>About
+I'm a software engineer and product builder focused on designing and building software systems that solve real-world problems.
 
-<br>
+I enjoy working across the engineering process — understanding business requirements, shaping system architecture, modeling data, developing backend services, and building user-facing applications.
 
-<table width="100%">
-  <tr>
-    <td width="62%" valign="top">
-      <img src="h-stack.svg" width="100%" />
-      <p align="center">
-        <img src="https://cdn.simpleicons.org/typescript/3178C6" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/php/777BB4" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" height="38" />
-      </p>
-      <p align="center">
-        <img src="https://cdn.simpleicons.org/react/61DAFB" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/vite/9135FF" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="38" />
-      </p>
-      <p align="center">
-        <img src="https://cdn.simpleicons.org/mysql/4479A1" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/sqlite/0F80CC" height="38" />&nbsp;&nbsp;
-        <img src="https://cdn.simpleicons.org/docker/2496ED" height="38" />
-      </p>
-      <p>
-        I'm a software engineer and product builder interested in designing
-        and building software systems that solve real-world problems.
-        I enjoy working across the engineering process — from understanding
-        business requirements and shaping system architecture to data modeling,
-        backend development, and user-facing applications.
-      </p>
-      <p>
-        My current focus is on business software, reliable backend systems,
-        and the infrastructure needed to build, deploy, and operate them.
-        I also explore how AI can support practical software engineering
-        and remove repetitive work.
-      </p>
-    </td>
-    <td width="38%" valign="top" align="center">
-      <img src="metrics.svg" width="100%" alt="GitHub metrics" />
-    </td>
-  </tr>
-</table>
-
-<img src="h-projects.svg" width="100%" />
-
+My current focus is business software, backend engineering, and the infrastructure required to deploy and operate reliable systems. I also explore practical ways to use AI throughout the software development process.
+Technology Stack
+Languages & Runtime
+<p>
+  <img src="https://cdn.simpleicons.org/csharp/512BD4" height="38" alt="C#" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" height="38" alt="TypeScript" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="38" alt="JavaScript" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/php/777BB4" height="38" alt="PHP" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" height="38" alt="Node.js" />
+</p>Backend & Application Frameworks
+<p>
+  <img src="https://cdn.simpleicons.org/dotnet/512BD4" height="38" alt=".NET" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/laravel/FF2D20" height="38" alt="Laravel" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/express/FFFFFF" height="38" alt="Express" />
+</p>Frontend & Mobile
+<p>
+  <img src="https://cdn.simpleicons.org/react/61DAFB" height="38" alt="React" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/expo/FFFFFF" height="38" alt="Expo" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/vite/646CFF" height="38" alt="Vite" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="38" alt="Tailwind CSS" />
+</p>Databases
+<p>
+  <img src="https://cdn.simpleicons.org/mysql/4479A1" height="38" alt="MySQL" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/4169E1" height="38" alt="PostgreSQL" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/sqlite/003B57" height="38" alt="SQLite" />
+</p>Infrastructure & Tools
+<p>
+  <img src="https://cdn.simpleicons.org/docker/2496ED" height="38" alt="Docker" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/linux/FCC624" height="38" alt="Linux" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/debian/A81D33" height="38" alt="Debian" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/F05032" height="38" alt="Git" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="38" alt="GitHub" />
+</p>Selected Projects
 <table width="100%">
   <tr>
     <th align="left" width="14%">Year</th>
@@ -73,14 +63,11 @@
     <td>Node.js · Express · SQLite</td>
     <td>An inventory and point-of-sale system with stock control, sales records, and reporting.</td>
   </tr>
-</table>
-
-<sub>Some projects and client work are maintained in private repositories.</sub>
-
-<br><br>
-
-<img src="h-activity.svg" width="100%" />
-
+</table><sub>Some projects and client work are maintained in private repositories.</sub>
+GitHub Metrics
 <p align="center">
-  <img src="isocalendar.svg" width="100%" alt="3D contribution calendar" />
+  <img src="metrics.svg" width="100%" alt="GitHub profile metrics" />
+</p>Activity
+<p align="center">
+  <img src="isocalendar.svg" width="100%" alt="GitHub contribution calendar" />
 </p>
